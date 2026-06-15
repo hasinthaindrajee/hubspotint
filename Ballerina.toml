@@ -1,0 +1,11 @@
+[package]
+org = "demoexonn"
+name = "hubspotint"
+version = "0.1.0"
+distribution = "2201.13.3"
+title = "HubspotInt"
+
+[build-options]
+observabilityIncluded = true
+remoteManagement = true
+sticky = true
