@@ -1,9 +1,6 @@
 import ballerina/http;
 import ballerina/log;
-import ballerinax/metrics.logs as _;
 import ballerinax/trigger.hubspot;
-
-import wso2/icp.runtime.bridge as _;
 
 listener hubspot:Listener hubspotListener = new ({clientSecret: hubspotClientSecret, callbackURL: hubspotCallbackURL}, listenOn = 8090);
 
