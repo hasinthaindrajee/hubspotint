@@ -1,0 +1,11 @@
+schemaVersion: 1.2
+
+endpoints:
+  - name: hubspot_webhook
+    displayName: Hubspot Webhook
+    service:
+      basePath: /
+      port: 8090
+    type: REST
+    networkVisibilities:
+      - Public
